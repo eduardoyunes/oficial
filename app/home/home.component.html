@@ -1,0 +1,90 @@
+<header class="h-100">
+  <!--Navbar-->
+  <mdb-navbar SideClass="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar white" [containerInside]="true">
+    <logo>
+      <a class="navbar-brand waves-light" mdbWavesEffect href="/">
+        <img src="assets/img/favicon.svg" height="32" class="d-inline-block align-top" alt="logo"> YunesEndocrinologia
+      </a>
+    </logo>
+    <links>
+<ul class="navbar-nav justify-content-space-between mr-auto">
+        <li class="nav-item active ml-3 waves-light" mdbWavesEffect>
+          <a class="nav-link" mdbPageScroll href="#home">Início
+            <span class="sr-only">(current)</span>
+          </a>
+        </li>
+        <li class="nav-item ml-3 waves-light" mdbWavesEffect>
+          <a class="nav-link" mdbPageScroll href="#about">Sobre</a>
+        </li>
+        <li class="nav-item ml-3 waves-light" mdbWavesEffect>
+          <a class="nav-link" mdbPageScroll href="#curriculo">Currículo</a>
+        </li>
+        <li class="nav-item ml-3 waves-light" mdbWavesEffect>
+          <a class="nav-link" mdbPageScroll href="#services">Tratamentos</a>
+        </li>
+        <li class="nav-item ml-3 waves-light" mdbWavesEffect>
+          <a class="nav-link" mdbPageScroll href="#location">Endereços</a>
+        </li>
+        <!-- Router link -->
+        <li class="nav-item ml-3 waves-light" mdbWavesEffect>
+          <a class="nav-link" href="#contact">Blog</a>
+        </li>
+        <!-- Router link -->
+      </ul>
+      <ul class="navbar-nav ml-3 nav-flex-icons">
+        <li class="nav-item waves-light" mdbWavesEffect>
+          <a class="nav-link" href="#" target="_blank">
+            <i class="fa fa-linkedin z-depth-5"></i>
+          </a>
+        </li>
+        <li class="nav-item waves-light" mdbWavesEffect>
+          <a class="nav-link" href="#" target="_blank">
+            <i class="fa fa-twitter z-depth-5"></i>
+          </a>
+        </li>
+        <li class="nav-item waves-light" mdbWavesEffect>
+          <a class="nav-link" href="#" target="_blank">
+            <i class="fa fa-instagram z-depth-5"></i>
+          </a>
+        </li>
+      </ul>
+    </links>
+  </mdb-navbar>
+  <!--Navbar-->
+
+  <!-- Intro Section -->
+  <section id="home">
+    <div class="view jarallax" data-jarallax='{"speed": 0.2}' style="background-image: url('../assets/img/bg-apple.jpeg'); background-repeat: no-repeat; background-size: cover; background-position: center center; background-attachment: fixed;">
+      <div class="full-bg-img mask rgba-black-strong embed-responsive">
+        <particles [params]="myParams" [style]="myStyle" [width]="width" [height]="height"></particles>
+        <div class="container h-100 d-flex justify-content-center align-items-center">
+          <div class="row pt-5 mt-3">
+            <div class="col-md-12 wow fadeIn mb-3">
+              <div class="text-center white-text">
+                <ul class="list-unstyled">
+                  <li>
+                    <h1 class="display-4 mt-md-5 mt-lg-0 mb-5 text-white wow fadeIn" data-wow-delay="0.3s">
+                      Viva em equilíbrio!<br><strong>Dr. Eduardo Bardou Yunes Filho</strong>
+                    </h1>
+                  </li>
+                  <li>
+                    <h5 class="description mb-5 wow fadeIn" data-wow-delay="0.4s"><strong>Médico Endocrinologista e Metabologista em Pelotas/RS</strong><br>Experiência no manejo dos distúrbios hormonais adquirida ao longo dos anos.
+                    </h5>
+                  </li>
+                  <li class="wow fadeIn" data-wow-delay="0.4s">
+                    <a class="btn aqua-gradient btn-rounded btn-lg font-weight-bold">Saiba mais!</a>
+                    <a class="btn blue-gradient btn-rounded btn-lg white-text font-weight-bold ml-lg-0">
+                      <i class="fa fa-calendar mr-2" aria-hidden="true"></i> Marque uma consulta!</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <!-- Intro Section -->
+  <!--Main Navigation-->
+</header>
